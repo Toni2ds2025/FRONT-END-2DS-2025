@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(100, 0, 92) 0%,
+    rgb(159, 19, 177) 35%, rgb(255, 20, 228) 100%)
+}
+
+.box {
+    margin: 20px;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: rgb(202, 202, 202);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - HTML: Estilizando Listas</title>
+
+    <style>
+        ul li {
+            list-style-type: none;
+        }
+
+        ul {
+            display: flex;
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+        li {
+            opacity: 0;
+            animation: fadeIn 0.5 ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 4;
+            }
+        }
+
+        li:nth-child(1)
+        li:nth-child(2)
+        li:nth-child(3)
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+</body>
+</html>

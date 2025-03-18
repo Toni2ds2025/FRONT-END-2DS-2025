@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem; /* REM!!! */
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 0 auto;
+    background-color: red;
+}
+
+.navbar-logo {
+    font-size: 1.5rem; /* UMA REM E MEIA!!! */
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+}
