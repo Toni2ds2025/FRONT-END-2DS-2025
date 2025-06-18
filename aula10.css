@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh; /*vh = view height*/
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 758px) {
+    .container {
+        width: 80%;
+        height: 80vh;
+        border: 1px solid red;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: image("https://media1.tenor.com/m/YXLBAE2RuZ8AAAAd/plus-boy-kagamine-len.gif");
+    }
+
+    .caixa {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
