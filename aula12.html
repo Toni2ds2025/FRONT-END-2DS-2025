@@ -50,6 +50,23 @@
                 alert("Por favor, preencha todos os campos!");
                 return;
             }
+
+            //Criar nova linha
+            const tabela = document.getElementById('tabelaDados').getElementsByTagName('tbody')[0];
+            const novaLinha = tabela.insertRow();
+
+            //Inserir células com valores
+            novaLinha.insertCell(0).textContent = valor1;
+            novaLinha.insertCell(1).textContent = valor2;
+            novaLinha.insertCell(2).textContent = valor3;
+
+            //Limpa os campos
+            document.getElementById('campo1').value = '';
+            document.getElementById('campo2').value = '';
+            document.getElementById('campo3').value = '';
+
+            //focar no primeiro campo novamente
+            document.getElementById('campo1').focus();
         }
     </script>
 
